@@ -1,4 +1,4 @@
-here is the text to change and make merge conflict
+here is some new text
 
 master:
 create branch1: paulfeature1
