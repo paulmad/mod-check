@@ -1,0 +1,4 @@
+900017	Bank of Ireland	2 College Green	Dublin	Ireland
+900033	Bank of Ireland	6 O Connel Street	Dublin	Ireland
+113717	Bank of Scotland	Merry Hill	London	United Kingdom
+115264	Bank of Scotland	519 Barking Road Plaistow	London	United Kingdom
