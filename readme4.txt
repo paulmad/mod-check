@@ -1,1 +1,0 @@
-init of readme text
