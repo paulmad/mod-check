@@ -3,6 +3,13 @@ collections
 streams
 lambdas
 java.util.function package
+<? super T>
+super in Generics is the opposite of extends. Instead of saying the comparable's generic type has to be a subclass of T, it is saying it has to be a superclass of T. The distinction is important because extends tells you what you can get out of a class (you get at least this, perhaps a subclass). super tells you what you can put into the class (at most this, perhaps a superclass).
+
+In this specific case, what it is saying is that the type has to implement comparable of itself or its superclass. So consider java.util.Date. It implements Comparable<Date>. But what about java.sql.Date? It implements Comparable<java.util.Date> as well.
+
+Without the super signature, SortedList would not be able accept the type of java.sql.Date, because it doesn't implement a Comparable of itself, but rather of a super class of itself.
+Comparable
 functional interfaces
 stream.filter(String::isEmpty)
 regular expressions
