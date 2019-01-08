@@ -1,6 +1,9 @@
 generics
 collections
 streams
-lamdas
-comparator
+lambdas
+java.util.function package
+functional interfaces
+stream.filter(String::isEmpty)
+regular expressions
 https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
