@@ -11,7 +11,9 @@ virtual Box
 networking microservices aws:subnet, proxy, lb, gateway, vpc, firewall
 terraform
 aws https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/
+deploy spring boot app to free aws acct - rest app with simple crud to mysql
 kafka
 dynamo db
+redis
 java.util.function package
-spring cloud. spring projects
+spring cloud. spring data. spring projects
