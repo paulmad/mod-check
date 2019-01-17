@@ -3,9 +3,11 @@ collections
 streams
 lambdas
 Generics
+method references (https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html)
 java.util.function package - BiFunction, Predicate, Supplier, etc
 completable future
 Optional
+Arrays class
 create a generics function that will take list and use
 lambda and stream to sort them.
 subinterfaces - subinterface extending more than one interface

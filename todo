@@ -17,3 +17,4 @@ dynamo db
 redis
 java.util.function package
 spring cloud. spring data. spring projects
+spring autoconfiguration
